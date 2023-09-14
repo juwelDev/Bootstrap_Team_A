@@ -30,6 +30,19 @@ body{
     background-color: #31E3C9;
     color: #000;
 }
+.btn-3{
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #fff;
+    border: 3px solid #c1c1c171;
+    color: #000; 
+    font-weight: bold;
+    border-radius: 0;
+}
+.btn-3:hover{
+    background-color: #31E3C9;
+    color: #000;
+}
 .btn-bg{
     background-color: #31E3C9;
 }
@@ -66,6 +79,32 @@ body{
 .scale:hover{
     scale: 1.3;
     transition: all ease-in 0.5s;
+}
+.top::before{
+    content: "";
+    display: block;
+    height: 30px;
+    width: 30px;
+    background: #F3F4F5;
+    position: absolute;
+    left: -15px;
+    bottom: -15px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.top::after{
+    content: "";
+    display: block;
+    height: 30px;
+    width: 30px;
+    background: #F3F4F5;
+    position: absolute;
+    right: -15px;
+    bottom: -15px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
 
 
