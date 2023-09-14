@@ -55,9 +55,13 @@ body{
     font-size: 16px;
     display: none;
 }
+.hover:hover img{
+    scale: 1.1;
+    transition: all ease-in 0.3s;
+}
 .hover:hover .text-hover{
     display: block;
-    transition: all ease 0.5s;
+    transition: all ease-in 0.5s;
 }
 
 
