@@ -45,6 +45,30 @@ body{
 .title-div{
     padding-top: 250px;
 }
+.position{
+    position: absolute; 
+    bottom: 30px; 
+    left: 30px; 
+    color: #fff;
+}
+.text-hover{
+    font-size: 16px;
+    display: none;
+}
+.hover:hover .text-hover{
+    display: block;
+    transition: all ease 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Media query for screens smaller than 768px (typical smartphones) */
 @media (max-width: 767px) {
