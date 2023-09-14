@@ -4,6 +4,7 @@
 }
 body{
     font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
 }
 .btn{
     padding: 20px 70px;
@@ -13,15 +14,27 @@ body{
     border-radius: 0;
     margin-top: 50px;
 }
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+.btn-2{
+    padding: 20px 70px;
+    background-color: #fff;
+    border: 3px solid #c1c1c171;
+    color: #000; 
+    font-weight: bold;
+    border-radius: 0;
+}
+.btn-2:hover{
+    background-color: #31E3C9;
+    color: #000;
+}
 .btn-bg{
     background-color: #31E3C9;
 }
 .text-paste{
     color: #31E3C9;
-}
-.btn:hover{
-    background-color: #fff;
-    color: #000;
 }
 .title{
     font-size: 100px;
