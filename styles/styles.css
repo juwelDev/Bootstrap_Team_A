@@ -43,6 +43,20 @@ body{
     background-color: #31E3C9;
     color: #000;
 }
+.btn-4{
+    padding: 20px 70px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff; 
+    font-weight: bold;
+    border-radius: 0;
+    margin-top: 30px;
+}
+.btn-4:hover{
+    background-color: #31E3C9;
+    color: #000;
+    border: 2px solid #31E3C9;
+}
 .btn-bg{
     background-color: #31E3C9;
 }
