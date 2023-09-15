@@ -11,7 +11,7 @@ body{
     background-color: #31E3C9;
 }
 .topside{
-    background-image: url(/Bootstrap_Team_A/assets/images/tiger.jpg);
+    background-image: url(/assets/images/tiger.jpg);
     min-height: 70vh;
     width: 100%;
     background-position: center;
