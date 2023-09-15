@@ -120,7 +120,17 @@ body{
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
-
+.dash::before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 2px;
+    width: 30px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+    background: #31E3C9;
+    position: relative;
+}
 
 
 
