@@ -4,16 +4,16 @@ const person = [
       img: "assets/images/Asia Cup Logo.avif",
       title: "India’s 8th or 7th for Sri Lanka?",
       discription:
-      "India will have an eye on extending their record haul while Sri Lanka would want to get level with the...",
+      "India will have an eye on extending their record haul while Sri Lanka would want to get level with the asia cup team and...",
 
-      link : "htmlfile/bangladesh.html",
+      link : "asia.html",
     },
     {
       id: 1,
-      img: "./assets/image/378242316_298362322829732_6322375367558857617_n.avif ",
-      title: "স্টার মাল্টিমিডিয়া",
-      discription: "নির্দলীয় সরকারের হাতে ক্ষমতা তুলে দিন: মির্জা ফখরুল ",
-      link: "./htmlfile/bangadesh.html",
+      img: "assets/images/preview_1.avif",
+      title: "Siraj wreaks havoc with maiden fifer in Asia Cup final ",
+      discription: "India pacer Mohammad Siraj picked up his maiden ODI five-wicket haul to reduce Sri Lanka to 12 runs for the...",
+      link: "trofy.html",
     },
 
   ];
@@ -31,7 +31,7 @@ const person = [
       <p class="card-text">
         ${item.discription}
       </p>
-      <a href="${item.link}" class="btn btn-primary">More Details</a>
+      <a href="${item.link}" class="btn btn-primary">Read More..</a>
     </div>
   </div> 
   `;
