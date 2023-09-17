@@ -3,135 +3,18 @@
     padding: 0;
 }
 body{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
     font-size: 18px;
+    background-color: #0F1218;
 }
-.btn{
-    padding: 20px 70px;
-    border: 2px solid #fff;
-    color: #fff; 
-    font-weight: bold;
-    border-radius: 0;
-    margin-top: 50px;
+.box{
+    width: 100px;
+    border-radius: 200px;
 }
-.btn:hover{
-    background-color: #fff;
-    color: #000;
+.custom-btn{
+  text-decoration: none;
+  font-weight: 100;
 }
-.btn-2{
-    padding: 20px 70px;
-    background-color: #fff;
-    border: 3px solid #c1c1c171;
-    color: #000; 
-    font-weight: bold;
-    border-radius: 0;
-}
-.btn-2:hover{
-    background-color: #31E3C9;
-    color: #000;
-}
-.btn-3{
-    width: 100%;
-    padding: 15px 20px;
-    background-color: #fff;
-    border: 3px solid #c1c1c171;
-    color: #000; 
-    font-weight: bold;
-    border-radius: 0;
-}
-.btn-3:hover{
-    background-color: #31E3C9;
-    color: #000;
-}
-.btn-4{
-    padding: 20px 70px;
-    background-color: transparent;
-    border: 2px solid #fff;
-    color: #fff; 
-    font-weight: bold;
-    border-radius: 0;
-    margin-top: 30px;
-}
-.btn-4:hover{
-    background-color: #31E3C9;
-    color: #000;
-    border: 2px solid #31E3C9;
-}
-.btn-bg{
-    background-color: #31E3C9;
-}
-.text-paste{
-    color: #31E3C9;
-}
-.title{
-    font-size: 100px;
-}
-.sub-title{
-    font-size: 60px;
-}
-.title-div{
-    padding-top: 250px;
-}
-.position{
-    position: absolute; 
-    bottom: 30px; 
-    left: 30px; 
-    color: #fff;
-}
-.text-hover{
-    font-size: 16px;
-    display: none;
-}
-.hover:hover img{
-    scale: 1.1;
-    transition: all ease-in 0.3s;
-}
-.hover:hover .text-hover{
-    display: block;
-    transition: all ease-in 0.5s;
-}
-.scale:hover{
-    scale: 1.3;
-    transition: all ease-in 0.5s;
-}
-.top::before{
-    content: "";
-    display: block;
-    height: 30px;
-    width: 30px;
-    background: #F3F4F5;
-    position: absolute;
-    left: -15px;
-    bottom: -15px;
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-}
-.top::after{
-    content: "";
-    display: block;
-    height: 30px;
-    width: 30px;
-    background: #F3F4F5;
-    position: absolute;
-    right: -15px;
-    bottom: -15px;
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-}
-.dash::before{
-    content: "";
-    display: inline-block;
-    vertical-align: middle;
-    height: 2px;
-    width: 30px;
-    margin-right: 10px;
-    margin-bottom: 3px;
-    background: #31E3C9;
-    position: relative;
-}
-
 
 
 
